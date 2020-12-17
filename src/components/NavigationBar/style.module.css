@@ -1,0 +1,26 @@
+.navigationBar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row;
+  width: 850px;
+  padding-top: 15px;
+  height: 50px;
+}
+
+.navigationBar li {
+  padding: 15px 10px;
+  list-style: none;
+  width: fit-content;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #555
+}
+.navigationBar li:hover {
+  border-bottom: 2px solid darkgray;
+  cursor: pointer;
+}
+
+.navigationBar .active, .navigationBar .active:hover{
+  border-bottom: 2px solid black;
+}
