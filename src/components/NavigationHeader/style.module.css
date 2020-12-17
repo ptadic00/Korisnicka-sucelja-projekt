@@ -1,0 +1,6 @@
+.navigationHeader {
+    background-color: #C4C4C4;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
