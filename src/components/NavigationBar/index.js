@@ -1,16 +1,15 @@
 import React from 'react'
-
-import styles from './style.module.css'
-
-const NavigationBar = () => (
-  <nav className={styles.navigationBar}>
-      <li className={styles.active}>Početna</li>
-      <li>Repertoar</li>
-      <li>Poslušajte nas</li>
-      <li>Galerija</li>
-      <li>Blog</li>
-      <li>Kontakt</li>
-  </nav>
-)
-
-export default NavigationBar
+ 
+  import styles from './style.module.css'
+ 
+  const navTabs = ['Početna', 'Repertoar', 'Poslušajte nas', 'Galerija', 'Blog', 'Kontakt']
+ 
+  const NavigationBar = () => (
+    <nav className={styles.navigationBar}>
+      {navTabs.map(tab => <li className={tab==='Početna' ? styles.active : ''}>
+        {tab}</li>
+      )}
+    </nav>
+  )
+ 
+  export default NavigationBar
