@@ -1,0 +1,107 @@
+.contactForm {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    background-image: url('../../images/purpGrad.jpg');
+    background-position: center;
+    border-radius: 35px;
+    padding-bottom: 20px;
+}
+ 
+.contactForm h2 {
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+}
+ 
+.contactInfo h3 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+.instagramLogo {
+    height: 50px;
+    height: 50px;
+}
+
+.faceLogo {
+    height: 50px;
+    height: 50px;
+}
+
+.socialNetw .instagramLogo:hover{
+    background: rgba(156, 156, 156, 0.356);
+    cursor: pointer;
+}
+
+.socialNetw .faceLogo:hover{
+    background: rgba(156, 156, 156, 0.356);
+    cursor: pointer;
+}
+
+.contactInfo p, address {
+    color: #C4C4C4;
+    font-weight: bolder;
+    margin: 0;
+    padding-bottom: 30px;
+}
+ 
+.contactInfo {
+    width: 400px;
+}
+/*/////////////*/
+.form form {
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+ 
+.form form > div {
+    width: 400px;
+    margin-right: 45px;
+    display: flex;
+    flex-flow: column;
+}
+ 
+.form form input {
+    width: 400px;
+    height: 35px;
+    border: 1px solid lightgray;
+}
+ 
+.form form label {
+    padding: 10px 0;
+    color: white;
+}
+.form form .message {
+    width: 100%;
+}
+ 
+.form form .message > input {
+    height: 200px;
+    width: auto;
+}
+ 
+.contactForm button {
+    background-color: #000;
+    color: white;
+    width: 185px;
+    padding: 11px 40px;
+    margin-left: auto;
+    margin-right: 45px;
+    margin-top: 15px;
+    border: 1px solid #000;
+}
+ 
+.contactForm button:hover {
+    background: #333;
+    cursor: pointer;
+    border: 1px solid #333;
+}
