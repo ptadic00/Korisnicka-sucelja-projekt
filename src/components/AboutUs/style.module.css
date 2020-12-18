@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
+
+.aboutUsTitle {
+    font-family: "Great Vibes";
+    font-size: 55px;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+}
+
+.aboutUsText {
+    font-size: 25px;
+    font-weight: normal;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2.5rem;
+}
