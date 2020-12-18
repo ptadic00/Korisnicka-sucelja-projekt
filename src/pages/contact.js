@@ -1,13 +1,13 @@
 import React from "react"
 import Footer from "../components/Footer"
 import NavigationHeader from '../components/NavigationHeader'
-//import Contact from '../components/Contact'
+import ContactTitle from '../components/ContactTitle'
 //import ContactForm from '../components/ContactForm'
  
 const ContactPage = () => (
   <main>
     <NavigationHeader activeTab="Kontakt"/>
-  
+        <ContactTitle/>
    
     <Footer/>
   </main>
