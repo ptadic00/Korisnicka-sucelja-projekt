@@ -5,13 +5,21 @@ import styles from './style.module.css'
 const AboutUs = () => (
     <nav>
         <h2 className={styles.aboutUsTitle}>O nama</h2>
-        <p className={styles.aboutUsText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Nunc tincidunt placerat dui quis semper. Mauris gravida sem massa, eu condimentum nunc pharetra nec. 
-        Ut vel neque eget erat congue sagittis. Vestibulum ullamcorper in mauris eget placerat.
-         Proin elementum tincidunt libero, sit amet dapibus orci fermentum sit amet. Curabitur volutpat sodales augue quis sagittis. 
-         Cras non risus sagittis, sagittis ipsum id, dictum elit. Sed facilisis nec nulla vel fringilla. 
-         Cras viverra pellentesque ipsum, quis euismod elit tristique sed. Nullam varius magna id auctor sagittis. 
-         Curabitur sodales at nunc mattis rhoncus. Nullam id diam justo.
+        <p className={styles.aboutUsText}>
+            Music Band 100's je profesionalni bend za svadbe koji već dugi niz godina djeluje na Hrvatskoj glazbenoj sceni. 
+            Više od 15 godina iskustva u profesionalnim glazbenim vodama pokazatelj su ozbiljnosti i sigurnosti. 
+            Naše glazbeno iskustvo stečeno je u mnogim glazbenim školama. 
+            Kasnije smo iskustvo stekli na raznim eventima i nastupima diljem Hrvatske i inozemstva zasigurno će oduševiti i 
+            najzahtjevniji dio publike.    
+        </p>
+        <p className={styles.aboutUsText}>
+            Music Band 100's svake godine odsvira velik broj koncerata. Našim velikim iskustvom rado ćemo Vam pomoći s raznim 
+            glazbenim savjetima i prijedlozima tako da Vaša svečanost bude za pamćenje. Za izvođenje programa koristimo vrhunski 
+            razglas te light show za osvjetljavanje stage-a i plesnog podija vrhunskim svjetlosnim efektima.
+        </p>
+        <p className={styles.aboutUsText}>
+            Odlična svirka, glazbena kreativnost i energija, profesionalnost te veliko iskustvo jamstvo su da Vaša svadbena 
+            svečanost bude jedinstvena!
         </p>
     </nav>
 )
