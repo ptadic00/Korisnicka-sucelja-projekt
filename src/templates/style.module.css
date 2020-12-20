@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+h1{
+    font-family: Great Vibes;
+    text-align: center;
+    font-size: 40px;
+}
+
+small{
+    font-family: Quicksand;
+    font-size:15px;
+    color: grey;
+    padding-left: 300px;
+}
+
+.content{
+    font-family: Quicksand;
+    padding-left: 200px;
+    padding-right:200px;
+}
+
+img{
+    width: 100%;
+}
+
