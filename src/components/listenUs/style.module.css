@@ -1,0 +1,22 @@
+.pozadina{
+    background-image: url('../../images/poslusajteNas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    padding-top:30px;
+    padding-bottom: 70px;
+    max-width: 600px;
+  margin: auto;
+    
+}
+
+.title{
+    position:center;
+    max-width: 320px;
+    margin:auto;
+    padding-bottom:30px;
+    padding-top:30px;
+    color:white;
+
+}
