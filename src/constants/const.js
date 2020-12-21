@@ -3,6 +3,6 @@ export const navs = [
     {tab: 'Repertoar', to: '/'}, 
     {tab: 'Poslušajte nas', to: '/'}, 
     {tab: 'Galerija', to: '/'}, 
-    {tab: 'Blog', to: '/'}, 
+    {tab: 'Blog', to: '/blog'}, 
     {tab: 'Kontakt', to: '/contact'}
 ]
