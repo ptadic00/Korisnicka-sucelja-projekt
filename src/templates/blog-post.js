@@ -11,11 +11,11 @@ export default function BlogPost({ data }) {
   return (
     <div>
       <NavigationHeader/>
-      <h1>{post.frontmatter.title}</h1>
-      <small>
+      <h1 className={styles.blogpost_title}>{post.frontmatter.title}</h1>
+      <small className={styles.blogpost_author}>
             {post.frontmatter.author}, {post.frontmatter.date}
           </small>
-          <div className={styles.content} dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div className={styles.blogpost_content} dangerouslySetInnerHTML={{ __html: post.html }} />
           <Footer/>
           </div>
   )
