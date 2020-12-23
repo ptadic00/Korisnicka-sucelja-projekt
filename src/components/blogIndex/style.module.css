@@ -1,8 +1,8 @@
-h1{
+.main_headline{
     font-family: Great Vibes;
     text-align: center;
     font-size: 40px;
-    color:black !important;
+    color:black;
 }
 
 .subtitle{
@@ -13,22 +13,18 @@ h1{
     font-style: underline;
 }
 
-.title{
+.blog_post_title{
     color:purple;
     text-decoration:underline;
+    text-indent:100px;
 }
 
-.small{
-    padding-left:120px;
+.blog_post_author{
+    margin-left:120px;
 }
 
-
-h2, p{
-    padding-left:100px;
-}
-
-article{
-    padding-bottom: 20px;
+.blog_windows{
+    margin-bottom: 20px;
 }
 
 .slika{
@@ -37,5 +33,6 @@ article{
 
 .excerpt{
     font-family: Quicksand;
-    padding-left: 110px;
+    text-indent: 110px;
+    padding-bottom:30px;
 }

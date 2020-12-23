@@ -1,25 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-h1{
+.blogpost_title{
     font-family: Great Vibes;
     text-align: center;
     font-size: 40px;
 }
 
-small{
+.blogpost_author{
     font-family: Quicksand;
     font-size:15px;
     color: grey;
-    padding-left: 300px;
+    margin-left: 200px;
 }
 
-.content{
+.blogpost_content{
     font-family: Quicksand;
-    padding-left: 200px;
-    padding-right:200px;
+    margin-left: 200px;
+    margin-right:200px;
 }
 
-img{
-    width: 100%;
-}
 

@@ -11,14 +11,14 @@ export default function Blog({ data }) {
     <div>
       <NavigationHeader/>
       <img className={styles.slika} alt="slika" src={data.image.publicURL}/>
-      <h1>Blog</h1>
+      <h1 className={styles.main_headline}>Blog</h1>
       <h2 className={styles.subtitle}>Dobrodošli na naš blog! Ovdje ćemo zapisivati naše doživljaje s gaža i koncerata.</h2>
       {posts.map(post => (
-        <article key={post.id}>
+        <article className={styles.blog_windows} key={post.id}>
           <Link to={post.fields.slug}>
-            <h2 className={styles.title}>{post.frontmatter.title}</h2>
+            <h2 className={styles.blog_post_title}>{post.frontmatter.title}</h2>
           </Link>
-          <small className={styles.small}>
+          <small className={styles.blog_post_author}>
             {post.frontmatter.author}, {post.frontmatter.date}
           </small>
           <p className={styles.excerpt}>{post.excerpt}</p>
