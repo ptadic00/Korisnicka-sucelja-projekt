@@ -2,8 +2,7 @@ import React from "react"
 import Footer from '../components/Footer'
 import NavigationHeader from '../components/NavigationHeader'
 import Photos from '../components/Gallery'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'react-image-lightbox/style.css'
+import 'react-image-lightbox/style.css';
 
 const GalleryPage = () => (
   <main>
