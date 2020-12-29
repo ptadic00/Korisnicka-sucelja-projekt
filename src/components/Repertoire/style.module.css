@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
+
+.repertoire_background_image{
+  background-image: url('../../images/repertoar.jpg');
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.repertoire_page{
+  max-width:1200px;
+  margin:auto;
+  
+}
+
+.NamesContainer {
+    columns: 2 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:white;
+    font-family: "Quicksand";
+  }
+
+.repertoire_h1 {
+    font-family: "Great Vibes";
+    margin-top:30px;
+    color:white !important;
+    font-size:50px;
+    text-align:center;
+}
+
+.repertoire_h2{
+  float: left;
+  font-size:20px;
+  color:white;
+  margin-right: 20px;
+  font-weight: 4px;
+}
+
+input{
+  float: left;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid white;;
+}
+
+::placeholder {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  font-weight:500;
+}

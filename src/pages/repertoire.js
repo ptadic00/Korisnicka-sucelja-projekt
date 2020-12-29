@@ -2,6 +2,7 @@ import React from 'react'
 import NamesContainer from '../components/SongsContainer/index.jsx'
 import Footer from '../components/Footer'
 import NavigationHeader from '../components/NavigationHeader'
+import styles from '../components/Repertoire/style.module.css'
 
 class App extends React.Component{
 state={
@@ -80,11 +81,19 @@ dynamicSearch=()=>{
 
 render(){
     return(
-        <div>
+        <div className={styles.repertoire_background_image}>
             <NavigationHeader/>
-            
+            <br></br>
+            <div className={styles.repertoire_page}>
+            <h2 className={styles.repertoire_h2}>SEARCH</h2>
             <input type='text' value={this.state.searchTerm} onChange={this.editSearchTerm} placeholder="Pretraži repertoar!"/>
-            <NamesContainer names={this.dynamicSearch()}/>
+            <br></br>
+            <h1 className={styles.repertoire_h1}>Sve pjesme:</h1>
+            <br></br>
+            <div className={styles.NamesContainer}>
+                <NamesContainer names={this.dynamicSearch()}/>
+            </div>
+            </div>
             <Footer/>
         </div>
     );
