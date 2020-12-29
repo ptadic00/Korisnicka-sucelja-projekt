@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import NamesContainer from '../components/SongsContainer/index.jsx'
 import Footer from '../components/Footer'
 import NavigationHeader from '../components/NavigationHeader'
 
@@ -83,6 +84,7 @@ render(){
             <NavigationHeader/>
             
             <input type='text' value={this.state.searchTerm} onChange={this.editSearchTerm} placeholder="Pretraži repertoar!"/>
+            <NamesContainer names={this.dynamicSearch()}/>
             <Footer/>
         </div>
     );
