@@ -2,6 +2,9 @@ import React from 'react'
 import NamesContainer from '../SongsContainer/index.jsx'
 import styles from './style.module.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+
 class Zabavno extends React.Component{
 state={
     names:[
@@ -46,7 +49,7 @@ render(){
     return(
         <div >
             <div className={styles.repertoire_page}>
-            <h2 className={styles.repertoire_h2}>SEARCH</h2>
+            <FontAwesomeIcon icon={faSearch}  className={styles.repertoire_h2}></FontAwesomeIcon>
             <input type='text' value={this.state.searchTerm} onChange={this.editSearchTerm} placeholder="Pretraži repertoar!"/>
             <br></br>
             <h1 className={styles.repertoire_h1}>Zabavno:</h1>
