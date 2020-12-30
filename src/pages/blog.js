@@ -9,7 +9,7 @@ export default function Blog({ data }) {
   
   return (
     <div>
-      <NavigationHeader/>
+      <NavigationHeader activeTab = "Blog"/>
       <img className={styles.slika} alt="slika" src={data.image.publicURL}/>
       <h1 className={styles.main_headline}>Blog</h1>
       <h2 className={styles.subtitle}>Dobrodošli na naš blog! Ovdje ćemo zapisivati naše doživljaje s gaža i koncerata.</h2>

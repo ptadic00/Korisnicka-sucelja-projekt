@@ -82,7 +82,7 @@ dynamicSearch=()=>{
 render(){
     return(
         <div className={styles.repertoire_background_image}>
-            <NavigationHeader/>
+            <NavigationHeader activeTab = "Repertoar"/>
             <br></br>
             <div className={styles.repertoire_page}>
             <h2 className={styles.repertoire_h2}>SEARCH</h2>
