@@ -9,10 +9,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .repertoire_page{
   max-width:1200px;
-  margin:auto;
-  
+  margin:auto; 
 }
 
 .NamesContainer {
@@ -30,7 +30,7 @@
     color:white !important;
     font-size:50px;
     text-align:center;
-    margin-top: 40px;
+    margin-top: 150px;
 }
 
 .repertoire_h2{
@@ -39,6 +39,7 @@
   margin-right: 10px;
   margin-top: 14px;
   font-size: x-large;
+  margin-top: 50px;
 }
 
 input{
@@ -46,7 +47,7 @@ input{
   border: none;
   background: transparent;
   border-bottom: 2px solid white;;
-  margin-top: 19px;
+  margin-top: 50px;
 }
 
 ::placeholder {
@@ -54,4 +55,58 @@ input{
   font-size: 15px;
   text-align: left;
   font-weight:500;
+}
+
+
+.filters {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row;
+  width: 700px;
+  margin-top: 50px;
+  width: 700px;
+  float: right;
+  height: 50px;
+}
+
+.filters li {
+  padding: 15px 10px;
+  list-style: none;
+  width: fit-content;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+.filters li:hover {
+  border-bottom: 2px solid darkgray;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.filter1{
+  border-radius: 50px;
+  background-color: #BA2E5E;
+  color: white;
+}
+.filter2{
+  border-radius: 50px;
+  background-color: #4D1F88;
+  color: white;
+}
+.filter3{
+  border-radius: 50px;
+  background-color: #917197;
+  color: white;
+}
+.filter4{
+  border-radius: 50px;
+  background-color: #C98F9E;
+  color: white;
+}
+.filter5{
+  border-radius: 50px;
+  background-color: #E87E6F;
+  color: white;
 }

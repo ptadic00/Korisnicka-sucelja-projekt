@@ -84,8 +84,10 @@ render(){
     return(
         <div >
             <div className={styles.repertoire_page}>
-            <FontAwesomeIcon icon={faSearch}  className={styles.repertoire_h2}></FontAwesomeIcon>
-            <input type='text' value={this.state.searchTerm} onChange={this.editSearchTerm} placeholder="Pretraži repertoar!"/>
+            <div className={styles.searchContainer}>
+                <FontAwesomeIcon icon={faSearch}  className={styles.repertoire_h2}></FontAwesomeIcon>
+                <input type='text' value={this.state.searchTerm} onChange={this.editSearchTerm} placeholder="Pretraži repertoar!"/>
+            </div>
             <br></br>
             <h1 className={styles.repertoire_h1}>Sve pjesme:</h1>
             <br></br>

@@ -6,6 +6,8 @@ import Zabavno from './zabavno'
 import Strano from './strano'
 import Dalmatinske from './dalmatinske'
 
+import styles from './style.module.css'
+
 class App extends React.Component {
     constructor(){
         super();
@@ -27,13 +29,13 @@ class App extends React.Component {
     }
     render() {
         return (
-            <div className="App">
-                <ul style={{display: 'inline'}}>
-                    <button onClick={this.handleClick.bind(this, 'all_songs')}>Sve pjesme</button>
-                    <button onClick={this.handleClick.bind(this, 'rock')}>PopRock</button>
-                    <button onClick={this.handleClick.bind(this, 'zabavno')}>Zabavno</button>
-                    <button onClick={this.handleClick.bind(this, 'dalmatinske')}>Dalmatinske</button>
-                    <button onClick={this.handleClick.bind(this, 'strano')}>Strano</button>
+            <div className={styles.filtersContainer}>
+                <ul className={styles.filters}>
+                    <li onClick={this.handleClick.bind(this, 'all_songs')} className={styles.filter1}>Sve pjesme</li>
+                    <li onClick={this.handleClick.bind(this, 'rock')} className={styles.filter2}>PopRock</li>
+                    <li onClick={this.handleClick.bind(this, 'zabavno')} className={styles.filter3}>Zabavno</li>
+                    <li onClick={this.handleClick.bind(this, 'dalmatinske')} className={styles.filter4}>Dalmatinske</li>
+                    <li onClick={this.handleClick.bind(this, 'strano')} className={styles.filter5}>Strano</li>
                 </ul>
                 {this._renderSubComp()}
             </div>
