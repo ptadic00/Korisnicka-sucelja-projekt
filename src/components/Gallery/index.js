@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './style.module.css'
 
 const images=[
