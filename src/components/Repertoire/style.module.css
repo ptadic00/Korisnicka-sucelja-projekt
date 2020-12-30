@@ -26,7 +26,7 @@
 
 .repertoire_h1 {
     font-family: "Great Vibes";
-    margin-top:30px;
+    margin-top:40px;
     color:white !important;
     font-size:50px;
     text-align:center;
@@ -45,6 +45,7 @@ input{
   border: none;
   background: transparent;
   border-bottom: 2px solid white;;
+  margin-top: 20px;
 }
 
 ::placeholder {
