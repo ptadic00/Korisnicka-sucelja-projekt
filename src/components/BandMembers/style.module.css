@@ -26,9 +26,15 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.memberName {
+    font-size: larger;
+    color: #4E4C4C;
+}
+
 .descr {
     text-align: left;
     font-family: 'Quicksand', sans-serif;
+    font-size: large;
 }
 
 .member_img {

@@ -5,6 +5,7 @@ import React from 'react'
 import i1 from '../../images/carousel_img1.jpg'
 import i2 from '../../images/carousel_img2.jpg'
 import i3 from '../../images/carousel_img3.jpg'
+import i4 from '../../images/carousel_img4.png'
 
 import styles from './style.module.css'
 
@@ -49,6 +50,9 @@ function Slider(props){
             >
             <div>
                 <img src={i1} alt="img1" className={styles.slideImg}/>
+            </div>
+            <div>
+                <img src={i4} alt="img4" className={styles.slideImg}/>
             </div>
             <div>
                 <img src={i2} alt="img2" className={styles.slideImg}/>
