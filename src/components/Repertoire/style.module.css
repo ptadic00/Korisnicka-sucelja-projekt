@@ -21,7 +21,9 @@
     margin-bottom: 30px;
     color:white;
     margin-left:120px;
-    font-family: "Quicksand";
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 1.75rem;
   }
 
 .repertoire_h1 {
@@ -48,6 +50,7 @@ input{
   background: transparent;
   border-bottom: 2px solid white;;
   margin-top: 50px;
+  color: white;
 }
 
 ::placeholder {
