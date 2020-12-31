@@ -14,7 +14,7 @@ const IndexPage = () => (
     <SocialNetworks/>
     <AboutUs/>
     <BandMembers/>
-    <Footer/>
+    <Footer activeTab = "Početna"/>
   </main>
 )
 

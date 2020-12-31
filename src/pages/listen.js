@@ -7,7 +7,7 @@ const PoslusajteNasIndex = () => (
   <main>
     <NavigationHeader activeTab = "Poslušajte nas" />
     <PoslusajteNas/>
-    <Footer/>
+    <Footer activeTab = "Poslušajte nas"/>
   </main>
 )
 

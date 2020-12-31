@@ -8,7 +8,7 @@ const RepertoirePage = () => (
   <main className={styles.repertoire_background_image}>
     <NavigationHeader activeTab="Repertoar"/>
     <Repertoire/>
-    <Footer/>
+    <Footer activeTab="Repertoar"/>
   </main>
 )
  

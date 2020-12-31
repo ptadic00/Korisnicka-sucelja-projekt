@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './style.module.css'
+import { Link } from 'gatsby'
+import { navs as navTabs } from '../../constants/const'
 
-const navTabs = ['Početna', 'Repertoar', 'Poslušajte nas', 'Galerija', 'Blog', 'Kontakt']
-
-const Footer = () => (
+const Footer = ({activeTab}) => (
   <footer className={styles.footer}>
       <ul className={styles.address}>
       <li className={styles.title}>
@@ -15,9 +15,11 @@ const Footer = () => (
           <li>bendzasvadbe@email.com</li>
       </ul>
       <ul className={styles.navigation}>
-          {navTabs.map(tab =>
-            <li>{tab}</li>)
-          }
+      {navTabs.map(({tab, to}) => (
+          <Link to={to} >
+              <li className={tab === activeTab ? styles.active : ''}>{tab}</li>
+          </Link>)
+        )}
       </ul>
   </footer>
 )

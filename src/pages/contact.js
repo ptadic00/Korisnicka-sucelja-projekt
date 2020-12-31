@@ -10,7 +10,7 @@ const ContactPage = () => (
         <ContactTitle/>
         <ContactForm/>
         <br></br>
-    <Footer/>
+    <Footer activeTab = "Kontakt"/>
   </main>
 )
  

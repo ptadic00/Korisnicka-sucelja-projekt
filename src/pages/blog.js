@@ -24,7 +24,7 @@ export default function Blog({ data }) {
           <p className={styles.excerpt}>{post.excerpt}</p>
         </article>
       ))}
-      <Footer/>
+      <Footer activeTab = "Blog"/>
     </div>
   )
 }
