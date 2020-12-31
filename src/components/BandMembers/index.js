@@ -12,7 +12,7 @@ const BandMembers = () => (
         <div className={styles.members}>
             <article className={styles.member1}>
                 <img src={i1} alt="member1" className={styles.member_img} width="300px" height="400px"></img>
-                <h4>
+                <h4 className={styles.memberName}>
                     Marijana Cikatić
                     <br></br>
                     (vokalistica)
@@ -23,7 +23,7 @@ const BandMembers = () => (
         </article>
         <article className={styles.member1}>
                 <img src={i2} alt="member2" className={styles.member_img} width="300px" height="400px"></img>
-                <h4>
+                <h4 className={styles.memberName}>
                     Filip Matić
                     <br></br>
                     (vokal i klavijature)
@@ -34,7 +34,7 @@ const BandMembers = () => (
         </article>
         <article className={styles.member1}>
                 <img src={i3} alt="member3" className={styles.member_img} width="300px" height="400px"></img>
-                <h4>
+                <h4 className={styles.memberName}>
                     Zoran Vučičić
                     <br></br>
                     (vokal i gitara)
