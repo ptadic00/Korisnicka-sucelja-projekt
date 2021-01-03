@@ -22,6 +22,7 @@ export default function Blog({ data }) {
             {post.frontmatter.author}, {post.frontmatter.date}
           </small>
           <p className={styles.excerpt}>{post.excerpt}</p>
+          <hr></hr>
         </article>
       ))}
       <Footer/>
