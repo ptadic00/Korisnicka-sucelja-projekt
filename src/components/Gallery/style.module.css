@@ -1,6 +1,20 @@
-.galerija{
+.galerija {
     max-width: 1200px;
-    margin:auto;
-    padding-top:20px;
-    padding-bottom:15px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+ 
+.galerijaGrid {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+.galerijaGrid img {
+    flex: 0 0 32%;
+    width: 300px;
+    margin: 5px;
+    min-height: 70px;
 }
