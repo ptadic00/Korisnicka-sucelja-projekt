@@ -40,6 +40,15 @@
 .excerpt{
     font-family: "Quicksand";
     text-indent: 110px;
+    padding-bottom: 10px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    width:1300px;
     padding-bottom:30px;
     font-size: 20px;
 }
