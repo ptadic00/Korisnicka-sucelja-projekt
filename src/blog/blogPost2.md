@@ -3,7 +3,7 @@ title: Puhijada Hvar 2011
 author: Filip
 date: 2020-10-15
 ---
-Ozganizatori Puhijade, velike fešte puhova na Hvaru, 2011. g. ugostila nas je kao izvođače koncerta.
+Organizatori Puhijade, velike fešte puhova na Hvaru, 2011. g. ugostila nas je kao izvođače koncerta.
 
 ![alt text](../images/blog2.jpg)
 
