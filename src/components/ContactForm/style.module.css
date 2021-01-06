@@ -6,11 +6,17 @@
     background-position: center;
     border-radius: 35px;
     padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
  
+.contactInfo{
+    margin-left: 40px;
+}
+
 .contactForm h2 {
     text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif;
     color: white;
     font-weight: lighter;
     font-size: 30px;
@@ -37,11 +43,13 @@
 .socialNetw .instagramLogo:hover{
     background: rgba(156, 156, 156, 0.356);
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .socialNetw .faceLogo:hover{
     background: rgba(156, 156, 156, 0.356);
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .contactInfo p, address {

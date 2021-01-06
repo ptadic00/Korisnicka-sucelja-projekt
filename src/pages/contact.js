@@ -9,7 +9,6 @@ const ContactPage = () => (
     <NavigationHeader activeTab="Kontakt"/>
         <ContactTitle/>
         <ContactForm/>
-        <br></br>
     <Footer activeTab = "Kontakt"/>
   </main>
 )
