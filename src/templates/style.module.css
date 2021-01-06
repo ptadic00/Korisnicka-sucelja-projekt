@@ -13,13 +13,17 @@
     font-family: "Quicksand";
     font-size:15px;
     color: grey;
-    margin-left: 220px;
+    margin-left: 200px;
     margin-top: 10px;
 }
 
 .blogpost_content{
-    font-family: "Quicksand";
-    margin-left: 200px;
-    margin-right:200px;
-    font-size: 20px;
+    font-size: 23px;
+    font-weight: normal;
+    position: relative;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2.5rem;
 }
