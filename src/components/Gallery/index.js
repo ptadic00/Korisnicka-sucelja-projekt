@@ -1,8 +1,9 @@
 import React, {Component} from 'react'
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
-//import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './style.module.css'
+
+import { Fade } from "react-awesome-reveal";
  
 const images=[
 'https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/318707_274122685936721_7339281_n.jpg?_nc_cat=103&ccb=2&_nc_sid=cdbe9c&_nc_ohc=KQ1-A4u-stkAX8wel4b&_nc_ht=scontent-frt3-2.xx&oh=7349983d0376e1fe8a9a6b9e96a1a833&oe=60044153',
@@ -33,11 +34,13 @@ export default class Photos extends Component{
  
         return(
             <div className={styles.galerija}>
-                <div className={styles.galerijaGrid}>
-                    {images.map((image, index) => <img src={image} onClick={() => {
-                        this.setState({isOpen: true, photoIndex: index})}
-                        }/>)}
-                </div> 
+                <Fade triggerOnce={true} delay={500}>
+                    <div className={styles.galerijaGrid}>
+                        {images.map((image, index) => <img src={image} onClick={() => {
+                            this.setState({isOpen: true, photoIndex: index})}
+                            }/>)}
+                    </div> 
+                </Fade>
             {isOpen && ( 
                 <Lightbox 
                     mainSrc={images[photoIndex]} 
