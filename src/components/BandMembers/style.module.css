@@ -7,16 +7,16 @@
     font-weight: normal;
     position: relative;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .members {
     display: flex;
     flex-wrap: wrap;
-    width: 1500px;
 }
 
 .member1 {
-    width: 275px;
+    width: 300px;
     text-align: center;
     margin: 10px 15px 10px 0;
     padding: 4px;
@@ -44,10 +44,10 @@
 
 .member_img:hover {
     border-radius: 0px;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.6s all ease
 }
 
 .member1:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
