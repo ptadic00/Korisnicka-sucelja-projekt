@@ -1,10 +1,22 @@
 import React from "react"
 
 import styles from './style.module.css'
+import { Fade } from "react-awesome-reveal";
+import { Bounce } from "react-awesome-reveal";
+import { Flip } from "react-awesome-reveal";
+import { Hinge } from "react-awesome-reveal";
+import { JackInTheBox } from "react-awesome-reveal";
+import { Roll } from "react-awesome-reveal";
+import { Rotate } from "react-awesome-reveal";
+import { Slide  } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const AboutUs = () => (
     <nav>
+        <Bounce triggerOnce={true}>
         <h2 className={styles.aboutUsTitle}>O nama</h2>
+        </Bounce>
+        <Slide triggerOnce={true} delay={700}>
         <p className={styles.aboutUsText}>
             Music Band 100's je profesionalni bend za svadbe koji već dugi niz godina djeluje na Hrvatskoj glazbenoj sceni. 
             Više od 15 godina iskustva u profesionalnim glazbenim vodama pokazatelj su ozbiljnosti i sigurnosti. 
@@ -21,6 +33,7 @@ const AboutUs = () => (
             Odlična svirka, glazbena kreativnost i energija, profesionalnost te veliko iskustvo jamstvo su da Vaša svadbena 
             svečanost bude jedinstvena!
         </p>
+        </Slide>
     </nav>
 )
  
