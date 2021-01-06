@@ -5,6 +5,8 @@ import styles from './style.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
+import { Bounce } from "react-awesome-reveal";
+
 class Songs extends React.Component{
 state={
     names:[
@@ -355,7 +357,9 @@ render(){
                 <input className={styles.repertoireInput} type='text' value={this.state.searchTerm} onChange={this.editSearchTerm} placeholder="Pretraži repertoar!"/>
             </div>
             <br></br>
-            <h1 className={styles.repertoire_h1}>Sve pjesme:</h1>
+            <Bounce triggerOnce={true}>
+                <h1 className={styles.repertoire_h1}>Sve pjesme:</h1>
+            </Bounce>
             <br></br>
             <div className={styles.NamesContainer}>
                 <NamesContainer names={this.dynamicSearch()}/>
