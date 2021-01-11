@@ -42,7 +42,7 @@ export default class Photos extends Component{
                     </div> 
                 </Fade>
             {isOpen && ( 
-                <Lightbox 
+                <Lightbox className={styles.lightbox}
                     mainSrc={images[photoIndex]} 
                     nextSrc={images[photoIndex + 1]} 
                     prevSrc={images[photoIndex -1]} 
