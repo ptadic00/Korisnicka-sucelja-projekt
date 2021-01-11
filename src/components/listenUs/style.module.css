@@ -1,7 +1,12 @@
+body{
+    width:100%;
+}
+
 .pozadina{
     background-image: url('../../images/poslusajteNas.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    width:100%;
 }
 .content{
     padding-top:30px;

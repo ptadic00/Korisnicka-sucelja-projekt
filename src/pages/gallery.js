@@ -7,11 +7,10 @@ import 'react-image-lightbox/style.css';
 
 const GalleryPage = () => (
   <main>
-    <NavigationHeader activeTab = "Galerija" />
+    
     <style>{'body { background-color: black; }'}</style>
     <GalleryTitle/>
     <Photos/>
-    <Footer/>
   </main>
 )
 
