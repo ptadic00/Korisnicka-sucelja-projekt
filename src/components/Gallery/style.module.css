@@ -14,7 +14,7 @@
  
 .galerijaGrid img {
     flex: 0 0 32%;
-    width: 300px;
+    width: 285px;
     margin: 5px;
     min-height: 70px;
     cursor: pointer;

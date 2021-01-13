@@ -11,6 +11,7 @@ const GalleryPage = () => (
     <style>{'body { background-color: black; }'}</style>
     <GalleryTitle/>
     <Photos/>
+    <Footer/>
   </main>
 )
 
