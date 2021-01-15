@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+
 .blogpost_title{
     font-family: "Great Vibes";
     font-size: 55px;
@@ -8,6 +9,7 @@
     text-align: center;
     margin-bottom: 10px;
 }
+
 
 .blogpost_author{
     font-family: "Quicksand";
@@ -27,3 +29,4 @@
     font-family: 'Quicksand', sans-serif;
     line-height: 2.5rem;
 }
+

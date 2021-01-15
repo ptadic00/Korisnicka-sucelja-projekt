@@ -5,7 +5,6 @@
     font-family: "Great Vibes";
     font-size: 55px;
     font-weight: normal;
-    position: relative;
     text-align: center;
     margin-bottom: 5px;
     padding-top: 11px;
@@ -22,7 +21,7 @@
 .blog_post_title{
     color:purple;
     text-decoration:underline;
-    text-indent:100px;
+    padding-left:100px;
 }
 
 .blog_post_author{
@@ -37,12 +36,12 @@
 
 .slika{
     width:100%;
-    height: 520px;
+    height: auto;
 }
 
 .excerpt{
     font-family: "Quicksand";
-    text-indent: 110px;
+    padding-left: 110px;
     padding-bottom: 10px;
 }
 
@@ -55,3 +54,122 @@ hr {
     padding-bottom:30px;
     font-size: 20px;
 }
+
+@media screen and (min-width: 620px) and (max-width:980px){
+    .subtitle{
+        width:60%;
+        margin: 0 auto;
+    }
+
+    .blog_post_title{
+        font-size:22px;
+        padding-left: 70px;
+    }
+
+    .blog_post_author{
+        margin-left:90px;
+        margin-right:90px;
+    }
+
+    .excerpt{
+        padding-left: 80px;
+        padding-right: 80px;
+        font-size: 17px;
+        text-align:justify;
+    }
+
+    hr{
+        width:700px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 620px) {
+    .main_headline{   
+    font-size:40px;
+    }
+
+    .subtitle{
+        font-size: 19px;
+        width:80%;
+        margin: 0 auto;
+    }
+
+    .blog_post_title{
+        font-size:19px;
+        padding-left: 40px;
+    }
+
+    .blog_post_author{
+        margin-left:50px;
+        margin-right:50px;
+        font-size:12px;
+    }
+
+    .excerpt{
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 14px;
+        text-align:justify;
+    }
+
+    hr{
+        width:450px;
+    }
+    }
+
+
+@media screen and (max-width: 480px){
+    .main_headline{   
+    font-size:30px;        
+    }
+    .subtitle{
+        font-size: 12px;            
+        width:78%;    
+        margin: 0 auto;
+        }
+
+    .blog_post_title{
+        font-size:16px;
+        padding-left: 25px;
+    }
+
+    .blog_post_author{
+        margin-left:30px;
+        margin-right:30px;
+        font-size:10px;
+    }
+
+    .excerpt{
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 11px;
+        text-align:justify;
+    }
+
+    hr{
+        width:350px;
+    }
+}
+
+/*
+@media screen and (min-width: 620px){
+    .subtitle{
+        width:60%;
+        margin: 0 auto;
+    }
+}*/
+
+/*
+@media screen and (max-width: 480px){
+    .main_headline{   
+    font-size:30px;
+    }
+
+    .subtitle{
+        font-size: 12px;
+        width:78%;
+        margin: 0 auto;
+    }
+    }
+
+*/
