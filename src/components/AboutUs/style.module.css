@@ -22,3 +22,59 @@
     line-height: 2.5rem;
     text-indent: 50px;
 }
+
+@media screen and (min-width:750px) and (max-width:1025px)
+{
+    .aboutUsTitle {
+        font-size: 45px;
+    }
+
+    .aboutUsText {
+        font-size: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-indent: 50px;
+    }
+}
+
+@media screen and  (min-width:600px) and (max-width:750px)
+{
+    .aboutUsTitle {
+        font-size: 40px;
+    }
+
+    .aboutUsText {
+        font-size: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-indent: 50px;
+    }
+}
+
+@media screen and  (min-width:464px) and  (max-width:600px)
+{
+    .aboutUsTitle {
+        font-size: 30px;
+    }
+
+    .aboutUsText {
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-indent: 30px;
+    }
+}
+
+@media screen and  (max-width:464px)
+{
+    .aboutUsTitle {
+        font-size: 30px;
+    }
+
+    .aboutUsText {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-indent: 20px;
+    }
+}

@@ -24,3 +24,29 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
+@media screen and (min-width:600px) and (max-width:1024px)
+{
+    .instagramLogo {
+        height: 40px;
+        height: 40px;
+    }
+    
+    .faceLogo {
+        height: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    .instagramLogo {
+        height: 30px;
+        height: 30px;
+    }
+    
+    .faceLogo {
+        height: 30px;
+        height: 30px;
+    }
+}
