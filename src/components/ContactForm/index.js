@@ -1,9 +1,7 @@
 import React from 'react'
  
 import styles from './style.module.css';
-import faceLogo from '../../images/faceLogo.png'
-import instagramLogo from '../../images/instagramLogo.png'
-
+import SocialNetworks from '../SocialNetworks'
 import { Fade } from "react-awesome-reveal";
 
 const ContactForm = () => (
@@ -24,8 +22,7 @@ const ContactForm = () => (
                 <p>IBAN: HR08497593759385739574</p>
 
                 <section className={styles.socialNetw} >
-                    <img src={instagramLogo} alt="instagramLogo" className={styles.instagramLogo}></img>
-                    <img src={faceLogo} alt="faceLogo" className={styles.faceLogo}></img>
+                    <SocialNetworks/>
                 </section>
                 
                 
