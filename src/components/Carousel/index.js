@@ -38,9 +38,10 @@ function Slider(props){
             ssr={true} // means to render carousel on server-side.
             infinite={true}
             autoPlay={props.deviceType !== 'mobile' ? true : false}
-            autoPlaySpeed={3000}
+            autoPlaySpeed={4000}
             keyBoardControl={true}
-            customTransition='all .5'
+            /*customTransition='all .5'*/
+            customTransition="transform 500ms ease-in-out"
             transitionDuration={500}
             containerClass="carousel-container"
             removeArrowOnDeviceType={['tablet', 'mobile']}
