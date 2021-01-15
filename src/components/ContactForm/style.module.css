@@ -9,6 +9,7 @@
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+    height:auto;
 }
  
 .contactInfo{
@@ -63,6 +64,8 @@
     width: 400px;
 }
 /*/////////////*/
+
+
 .form form {
     width: 900px;
     display: flex;
@@ -364,3 +367,282 @@
     }
 }
 
+@media screen and (min-width:860px) and (max-width:1000px){
+
+    .contactForm {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+    .contactInfo{
+        margin-left: 10px;
+    }
+    
+    .contactForm h2 {
+        font-size: 25px;
+    }
+     
+    .contactInfo h3 {
+        font-size: 16px;
+    }
+    
+    .contactInfo p, address {
+        font-size: 15px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: 350px;
+    }
+
+    .form form {
+        width: 600px;
+    }
+     
+    .form form input {
+        width: 350px;
+        height: 27px;
+    }
+
+    .form form > div {
+        width: 350px;
+        margin-right: 0px;
+    }
+     
+    .form form label {
+        padding: 10px 0;
+    }
+     
+    .form form .message > input {
+        height: 200px;
+        width: 350px;
+    }
+     
+    .contactForm button {
+        width: 140px;
+        padding: 9px 25px;
+        margin-right: 250px;
+        margin-top: 15px;
+        font-size:13px;
+    }
+}
+
+@media screen and (min-width:680px) and (max-width:1034px){
+
+    .contactForm {
+        display:block;
+        margin-bottom: 30px;
+        text-align:center;
+        padding-right:0px !important;
+        padding-left:0px;
+    }
+    .contactInfo{
+        margin: 0 auto;
+    }
+
+    .contactForm h2 {
+        font-size: 25px;
+        margin: 0 auto;
+    }
+     
+    .contactInfo h3 {
+        font-size: 16px;
+    }
+    
+    .form h2{
+        padding-top: 30px;
+    }
+    .contactInfo p, address {
+        font-size: 15px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: 350px;
+    }
+
+    .form{
+        margin: 0 auto;
+    }
+    .form form {
+        width: 600px;
+        margin: 0 auto;
+    }
+     
+    .form form input {
+        width: 350px;
+        height: 27px;
+        margin: 0 auto;
+    }
+
+    .form form > div {
+        width: 350px;
+        margin:0 auto;
+    }
+     
+    .form form label {
+        padding: 10px 0;
+        text-align:left;
+    }
+
+    .form form .message > input {
+        height: 200px;
+        width: 350px;
+    }
+
+    .message_label{
+        margin-left:124px;
+    }
+     
+    .contactForm button {
+        width: 140px;
+        padding: 9px 25px;
+        margin-right: auto;
+        margin-top: 15px;
+        font-size:13px;
+    }
+}
+
+
+@media screen and (min-width:456px) and (max-width:680px){
+
+    .contactForm {
+        display:block;
+        margin-bottom: 30px;
+        text-align:center;
+        padding-right:0px !important;
+        padding-left:0px;
+        padding-top:20px;
+    }
+    .contactInfo{
+        margin: 0 auto;
+    }
+
+    .contactForm h2 {
+        font-size: 18px;
+    }
+     
+    .contactInfo h3 {
+        font-size: 14px;
+    }
+    
+    .form h2{
+        padding-top: 18px;
+    }
+    .contactInfo p, address {
+        font-size: 14px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: 350px;
+    }
+
+    .form form {
+        width: 300px;
+        margin: 0 auto;
+        padding-left:0px;
+    }
+     
+    .form form input {
+        width: 300px;
+        height: 27px;
+        margin: 0 auto;
+    }
+
+    .form form > div {
+        width: 350px;
+        margin:0 auto;
+    }
+     
+    .form form label {
+        padding: 10px 0;
+        text-align:left;
+        font-size:13px;
+    }
+
+    .form form .message > input {
+        height: 100px;
+        width: 300px;
+    }
+     
+}
+
+
+@media screen and (max-width:456px){
+
+    .contactForm {
+        display:block;
+        margin-bottom: 30px;
+        text-align:center;
+        padding-right:0px !important;
+        padding-left:0px;
+        padding-top:20px;
+    }
+    .contactInfo{
+        margin: 0 auto;
+    }
+
+    .contactForm h2 {
+        font-size: 15px;
+    }
+     
+    .contactInfo h3 {
+        font-size: 11px;
+    }
+    
+    .form h2{
+        padding-top: 15px;
+    }
+    .contactInfo p, address {
+        font-size: 11px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: auto;
+    }
+
+    .form form {
+        width: 250px;
+        margin: 0 auto;
+        padding-left:0px;
+    }
+     
+    .form form input {
+        width: auto;
+        height: 27px;
+        margin: 0 auto;
+    }
+
+    .form form > div{
+        width: auto;
+        margin:0 auto;
+    }
+
+    .message_label{
+        margin-left:44px;
+    }
+     
+    .form form label {
+        padding: 8px 0;
+        text-align:left;
+        font-size:11px;
+    }
+
+    .form form input {
+        height:15px;
+    }
+
+    .form form .message > input {
+        height: 100px;
+        width: auto;
+    }
+     
+    .contactForm button {
+        width: 100px;
+        margin:10 auto;
+        padding:8px;
+        font-size:10px;
+    }
+}

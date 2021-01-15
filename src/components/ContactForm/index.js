@@ -14,7 +14,7 @@ const ContactForm = () => (
                 <h3>broj mobitela (Filip Matić)</h3>
                 <p></p>
                 <p>+385 091 5214 758</p>
-    
+                <br></br>
                 <h3>email</h3>
                 <p></p>
                 <p>bendzasvadbe@email.com</p>
@@ -47,7 +47,7 @@ const ContactForm = () => (
                         <input name="phone" type="tel" />
                     </div>
                     <div className={styles.message}>
-                        <label htmlFor="message">Poruka</label>
+                        <label className={styles.message_label} htmlFor="message">Poruka</label>
                         <input name="message" type="text" />
                     </div>
                     <button>Pošalji poruku</button>
