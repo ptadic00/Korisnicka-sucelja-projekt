@@ -55,3 +55,30 @@ hr {
     padding-bottom:30px;
     font-size: 20px;
 }
+
+
+@media screen and (min-width: 480px) and (max-width: 620px) {
+    .main_headline{   
+    font-size:28px;
+    }
+
+    .subtitle{
+        font-size: 12px;
+        width:50%;
+        margin: 0 auto;
+    }
+    }
+
+
+    @media screen and (max-width: 480px){
+        .main_headline{   
+        font-size:26px;
+        }
+    
+        .subtitle{
+            font-size: 12px;
+            width:78%;
+            margin: 0 auto;
+        }
+        }
+
