@@ -21,3 +21,40 @@
     padding-bottom: 25px;
     font-style: underline;
 }
+
+@media screen and (min-width: 620px) and (max-width:980px){
+    
+    .contactTitle{
+        font-size:40px;
+    }
+
+    .contactSubtitle{
+        width:60%;
+        margin: 0 auto;
+        font-size:15px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 620px) {
+    .contactTitle{   
+    font-size:30px;
+    }
+
+    .contactSubtitle{
+        font-size: 13px;
+        width:80%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .contactTitle{   
+    font-size:25px;        
+    }
+    .contactSubtitle{
+        font-size: 10px;            
+        width:78%;    
+        margin: 0 auto;
+        }
+}
