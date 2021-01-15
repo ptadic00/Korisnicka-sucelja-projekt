@@ -21,7 +21,7 @@
     "gatsby-transformer-sharp": "^2.6.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
-    "react-awesome-reveal": "^3.5.1",
+    "react-awesome-reveal": "^3.5.2",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-image": "^4.0.3",
