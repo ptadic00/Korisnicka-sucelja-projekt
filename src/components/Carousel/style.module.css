@@ -3,3 +3,32 @@
     height: 79vh;/*visina boxa u kojem su strelice*/
     object-fit: cover;
 }
+
+
+@media screen and (min-width:880px) and (max-width:1025px)
+{
+    .slideImg {
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width:715px) and (max-width:880px)
+{
+    .slideImg {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:715px)
+{
+    .slideImg {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    .slideImg {
+        height: 30vh;
+    }
+}
