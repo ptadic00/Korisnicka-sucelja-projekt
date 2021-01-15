@@ -60,7 +60,8 @@ html, body {width: auto!important; overflow-x: hidden!important}
     .footer .address{
         border-right: none;
         font-size:13px;
-        margin: 0 auto;        
+        margin: 0 auto;   
+        padding-right: 70px;     
     }
     .title{
         font-size:30px;
