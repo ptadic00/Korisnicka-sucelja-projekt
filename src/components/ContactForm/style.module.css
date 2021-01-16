@@ -9,6 +9,7 @@
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+    height:auto;
 }
  
 .contactInfo{
@@ -32,11 +33,9 @@
 
 .instagramLogo {
     height: 50px;
-    height: 50px;
 }
 
 .faceLogo {
-    height: 50px;
     height: 50px;
 }
 
@@ -63,6 +62,8 @@
     width: 400px;
 }
 /*/////////////*/
+
+
 .form form {
     width: 900px;
     display: flex;
@@ -79,7 +80,7 @@
 }
  
 .form form input {
-    width: 400px;
+    width: 350px;
     height: 35px;
     border: 1px solid lightgray;
 }
@@ -94,7 +95,7 @@
  
 .form form .message > input {
     height: 200px;
-    width: auto;
+    width: 800px;
 }
  
 .contactForm button {
@@ -112,4 +113,554 @@
     background: #333;
     cursor: pointer;
     border: 1px solid #333;
+}
+
+@media screen and (min-width:1500px){
+    .contactForm {
+        padding: 40px 40px;
+        padding-bottom: 20px;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 45px;
+    }
+    .contactInfo{
+        margin-left: 25px;
+    }
+    
+    .contactForm h2 {
+        font-size: 25px;
+    }
+     
+    .contactInfo h3 {
+        font-size: 18px;
+    }
+
+    .contactInfo p, address {
+        font-size: 16px;
+    }
+
+    .contactInfo {
+        width: 380px;
+    }
+    /*/////////////*/
+    .form form {
+        width: 880px;
+    }
+     
+    .form form > div {
+        width: 380px;
+        margin-right: 40px;
+    }
+     
+    .form form input {
+        width: 330px;
+        height: 30px;
+    }
+     
+    .form form label {
+        padding: 9px 0;
+    }
+     
+    .form form .message > input {
+        height: 200px;
+        width: 750px;
+    }
+     
+    .contactForm button {
+        width: 170px;
+        padding: 10px 35px;
+        margin-left: auto;
+        margin-right: 130px;
+        margin-top: 15px;
+    }
+
+}
+
+
+
+@media screen and (min-width:1340px) and (max-width:1500px){
+    .contactForm {
+        padding: 35px 35px;
+        padding-bottom: 17px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+    .contactInfo{
+        margin-left: 20px;
+    }
+    
+    .contactForm h2 {
+        font-size: 25px;
+    }
+     
+    .contactInfo h3 {
+        font-size: 17px;
+    }
+    
+    .instagramLogo, .faceLogo {
+        height: 45px;
+    }
+
+    .contactInfo p, address {
+        font-size: 15px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: 350px;
+    }
+    .form form {
+        width: 850px;
+    }
+     
+    .form form > div {
+        width: 360px;
+        margin-right: 35px;
+    }
+     
+    .form form input {
+        width: 320px;
+        height: 25px;
+    }
+     
+    .form form label {
+        padding: 10px 0;
+    }
+     
+    .form form .message > input {
+        height: 200px;
+        width: 720px;
+    }
+     
+    .contactForm button {
+        width: 170px;
+        padding: 10px 35px;
+        margin-right: 130px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:1185px) and (max-width:1340px){
+    .contactForm {
+        padding: 32px 32px;
+        padding-bottom: 16px;
+        margin-left: 37px;
+        margin-right: 37px;
+        margin-bottom: 37px;
+    }
+    .contactInfo{
+        margin-left: 18px;
+    }
+    
+    .contactForm h2 {
+        font-size: 25px;
+    }
+     
+    .contactInfo h3 {
+        font-size: 16px;
+    }
+    
+    .contactInfo p, address {
+        font-size: 15px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: 347px;
+    }
+
+    .instagramLogo, .faceLogo {
+        height: 45px;
+    }
+
+    .form form {
+        width: 830px;
+    }
+     
+    .form form > div {
+        width: 340px;
+        margin-right: 35px;
+    }
+     
+    .form form input {
+        width: 310px;
+        height: 27px;
+    }
+     
+    .form form label {
+        padding: 10px 0;
+    }
+     
+    .form form .message > input {
+        height: 200px;
+        width: 685px;
+    }
+     
+    .contactForm button {
+        width: 150px;
+        padding: 9px 33px;
+        margin-right: 150px;
+        margin-top: 15px;
+        font-size:13px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1185px){
+    .contactInfo{
+        margin-left: 10px;
+    }
+    
+    .contactForm h2 {
+        font-size: 23px;
+    }
+     
+    .contactInfo h3 {
+        font-size: 15px;
+    }
+    
+    .contactInfo p, address {
+        font-size: 13px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: 335px;
+    }
+
+    .instagramLogo, .faceLogo {
+        height: 40px;
+    }
+
+    .form form {
+        width: 750px;
+    }
+     
+    .form form input {
+        width: 180px;
+        height: 27px;
+    }
+
+    .form form > div {
+        width: 280px;
+        margin-right: 0px;
+    }
+     
+    .form form label {
+        padding: 10px 0;
+    }
+     
+    .form form .message > input {
+        height: 200px;
+        width: 460px;
+    }
+     
+    .contactForm button {
+        width: 140px;
+        padding: 9px 25px;
+        margin-right: 300px;
+        margin-top: 15px;
+        font-size:13px;
+    }
+}
+
+@media screen and (min-width:860px) and (max-width:1000px){
+
+    .contactForm {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+    .contactInfo{
+        margin-left: 10px;
+    }
+    
+    .contactForm h2 {
+        font-size: 25px;
+    }
+     
+    .contactInfo h3 {
+        font-size: 16px;
+    }
+    
+    .contactInfo p, address {
+        font-size: 15px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: 350px;
+    }
+
+    .form form {
+        width: 600px;
+    }
+     
+    .form form input {
+        width: 350px;
+        height: 27px;
+    }
+
+    .form form > div {
+        width: 350px;
+        margin-right: 0px;
+    }
+     
+    .form form label {
+        padding: 10px 0;
+    }
+     
+    .form form .message > input {
+        height: 200px;
+        width: 350px;
+    }
+
+    .instagramLogo, .faceLogo {
+        height: 40px;
+    }
+     
+    .contactForm button {
+        width: 140px;
+        padding: 9px 25px;
+        margin-right: 250px;
+        margin-top: 15px;
+        font-size:13px;
+    }
+}
+
+@media screen and (min-width:680px) and (max-width:1034px){
+
+    .contactForm {
+        display:block;
+        margin-bottom: 30px;
+        text-align:center;
+        padding-right:0px !important;
+        padding-left:0px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .contactInfo{
+        margin: 0 auto;
+    }
+
+    .contactForm h2 {
+        font-size: 24px;
+        margin: 0 auto;
+    }
+     
+    .contactInfo h3 {
+        font-size: 19px;
+    }
+    
+    .form h2{
+        padding-top: 30px;
+    }
+    .contactInfo p, address, .form form label {
+        font-size: 17px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: 350px;
+    }
+
+    .form{
+        margin: 0 auto;
+    }
+    .form form {
+        width: 600px;
+        margin: 0 auto;
+    }
+     
+    .form form input {
+        width: 350px;
+        height: 27px;
+        margin: 0 auto;
+    }
+
+    .form form > div {
+        width: 350px;
+        margin:0 auto;
+    }
+     
+    .form form label {
+        padding: 10px 0;
+        text-align:left;
+    }
+
+    .form form .message > input {
+        height: 200px;
+        width: 350px;
+    }
+
+    .message_label{
+        margin-left:124px;
+    }
+     
+    .contactForm button {
+        width: 140px;
+        padding: 9px 25px;
+        margin-right: auto;
+        margin-top: 15px;
+        font-size:13px;
+    }
+
+    .instagramLogo, .faceLogo {
+        height: 35px;
+    }
+}
+
+
+@media screen and (min-width:424px) and (max-width:680px){
+
+    .contactForm {
+        display:block;
+        margin-bottom: 30px;
+        text-align:center;
+        padding-right:0px !important;
+        padding-left:0px;
+        padding-top:20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contactInfo{
+        margin: 0 auto;
+    }
+
+    .contactForm h2 {
+        font-size: 17px;
+    }
+     
+    .contactInfo h3 {
+        font-size: 13px;
+    }
+    
+    .form h2{
+        padding-top: 18px;
+    }
+    .contactInfo p, address, .form form label {
+        font-size: 13px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: 350px;
+    }
+
+    .form form {
+        width: 300px;
+        margin: 0 auto;
+        padding-left:0px;
+    }
+     
+    .form form input {
+        width: 300px;
+        height: 25px;
+        margin: 0 auto;
+    }
+
+    .form form > div {
+        width: 350px;
+        margin:0 auto;
+    }
+     
+    .form form label {
+        padding: 8px 0;
+        text-align:left;
+        font-size:13px;
+    }
+
+    .form form .message > input {
+        height: 100px;
+        width: 300px;
+    }
+     
+    .instagramLogo, .faceLogo {
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width:424px){
+
+    .contactForm {
+        display:block;
+        margin-bottom: 30px;
+        text-align:center;
+        padding-right:0px !important;
+        padding-left:0px;
+        padding-top:20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contactInfo{
+        margin: 0 auto;
+    }
+
+    .contactForm h2 {
+        font-size: 15px;
+    }
+     
+    .contactInfo h3 {
+        font-size: 11px;
+    }
+    
+    .form h2{
+        padding-top: 15px;
+    }
+    .contactInfo p, address {
+        font-size: 11px;
+        padding-bottom:20px;
+    }
+
+    .contactInfo {
+        width: auto;
+    }
+
+    .form form {
+        width: 160px;
+        margin: 0 auto;
+        padding-left:0px;
+    }
+     
+    .form form input {
+        width: auto;
+        height: 27px;
+        margin: 0 auto;
+    }
+
+    .form form > div{
+        width: auto;
+        margin:0 auto;
+    }
+
+    .form form label {
+        padding: 8px 0;
+        text-align:left;
+        font-size:11px;
+    }
+    .message{
+        margin:0 auto;
+    
+    }
+
+    .form form input {
+        height:15px;
+    }
+
+    .form form .message > input {
+        height: 100px;
+        width: auto;
+    }
+     
+    .contactForm button {
+        width: 80px;
+        margin-top:15px;
+        margin-right:40px;
+        padding:8px;
+        font-size:9px;
+    }
+    .instagramLogo, .faceLogo {
+        height: 25px;
+    }
 }

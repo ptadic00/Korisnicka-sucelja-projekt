@@ -3,7 +3,6 @@ import React from 'react'
 import styles from './style.module.css';
 import faceLogo from '../../images/faceLogo.png'
 import instagramLogo from '../../images/instagramLogo.png'
-
 import { Fade } from "react-awesome-reveal";
 
 const ContactForm = () => (
@@ -16,7 +15,7 @@ const ContactForm = () => (
                 <h3>broj mobitela (Filip Matić)</h3>
                 <p></p>
                 <p>+385 091 5214 758</p>
-    
+                <br></br>
                 <h3>email</h3>
                 <p></p>
                 <p>bendzasvadbe@email.com</p>
@@ -24,8 +23,8 @@ const ContactForm = () => (
                 <p>IBAN: HR08497593759385739574</p>
 
                 <section className={styles.socialNetw} >
-                    <img src={instagramLogo} alt="instagramLogo" className={styles.instagramLogo}></img>
-                    <img src={faceLogo} alt="faceLogo" className={styles.faceLogo}></img>
+                <img src={instagramLogo} alt="instagramLogo" className={styles.instagramLogo}></img>
+        <img src={faceLogo} alt="faceLogo" className={styles.faceLogo}></img>
                 </section>
                 
                 
@@ -50,7 +49,7 @@ const ContactForm = () => (
                         <input name="phone" type="tel" />
                     </div>
                     <div className={styles.message}>
-                        <label htmlFor="message">Poruka</label>
+                        <label className={styles.message_label} htmlFor="message">Poruka</label>
                         <input name="message" type="text" />
                     </div>
                     <button>Pošalji poruku</button>
