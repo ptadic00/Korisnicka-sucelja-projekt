@@ -97,7 +97,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
 
 
-@media screen and (min-width:826px) and (max-width:885px)
+@media screen and (min-width:826px) and (max-width:900px)
 {
     .footer {
         padding: 15px;
@@ -134,7 +134,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
     
 }
 
-@media screen and (min-width:885px) and (max-width:950px)
+@media screen and (min-width:900px) and (max-width:980px)
 {
     .footer {
         padding: 15px;
@@ -159,7 +159,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
     
 }
 
-@media screen and (min-width:950px) and (max-width:1035px)
+@media screen and (min-width:980px) and (max-width:1073px)
 {
     .footer {
         padding: 25px;

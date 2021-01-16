@@ -36,7 +36,7 @@
 
 .slika{
     width:100%;
-    height: auto;
+    height: 69vh;
 }
 
 .excerpt{
@@ -56,9 +56,14 @@ hr {
 }
 
 @media screen and (min-width: 620px) and (max-width:980px){
+    .main_headline{
+        font-size:40px;
+    }
+
     .subtitle{
         width:60%;
         margin: 0 auto;
+        font-size:15px;
     }
 
     .blog_post_title{
@@ -85,11 +90,11 @@ hr {
 
 @media screen and (min-width: 480px) and (max-width: 620px) {
     .main_headline{   
-    font-size:40px;
+    font-size:30px;
     }
 
     .subtitle{
-        font-size: 19px;
+        font-size: 13px;
         width:80%;
         margin: 0 auto;
     }
@@ -126,7 +131,7 @@ hr {
         font-size: 12px;            
         width:78%;    
         margin: 0 auto;
-        }
+    }
 
     .blog_post_title{
         font-size:16px;
@@ -148,6 +153,34 @@ hr {
 
     hr{
         width:350px;
+    }
+}
+
+@media screen and (min-width:715px) and (max-width:980px)
+{
+    .slika {
+        height: 64vh;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:715px)
+{
+    .slika {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width:370px) and (max-width:600px)
+{
+    .slika {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:370px)
+{
+    .slika {
+        height: 25vh;
     }
 }
 

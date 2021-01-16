@@ -13,7 +13,7 @@
 }
  
 .contactInfo{
-    margin-left: 40px;
+    margin-left: 55px;
 }
 
 .contactForm h2 {
@@ -104,7 +104,7 @@
     width: 185px;
     padding: 11px 40px;
     margin-left: auto;
-    margin-right: 45px;
+    margin-right: 94px;
     margin-top: 15px;
     border: 1px solid #000;
 }
@@ -114,7 +114,7 @@
     cursor: pointer;
     border: 1px solid #333;
 }
-
+/*
 @media screen and (min-width:1500px){
     .contactForm {
         padding: 40px 40px;
@@ -142,7 +142,7 @@
     .contactInfo {
         width: 380px;
     }
-    /*/////////////*/
+  
     .form form {
         width: 880px;
     }
@@ -174,7 +174,7 @@
         margin-top: 15px;
     }
 
-}
+}*/
 
 
 
@@ -306,11 +306,25 @@
     }
 }
 
-@media screen and (min-width:1000px) and (max-width:1185px){
+@media screen and (min-width:1100px) and (max-width:1185px){
     .contactInfo{
-        margin-left: 10px;
+        margin-left: 85px;
     }
-    
+}
+
+@media screen and (min-width:1050px) and (max-width:1100px){
+    .contactInfo{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1050px){
+    .contactInfo{
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1185px){  
     .contactForm h2 {
         font-size: 23px;
     }
@@ -358,7 +372,7 @@
     .contactForm button {
         width: 140px;
         padding: 9px 25px;
-        margin-right: 300px;
+        margin-right: 284px;
         margin-top: 15px;
         font-size:13px;
     }
@@ -577,6 +591,14 @@
      
     .instagramLogo, .faceLogo {
         height: 30px;
+    }
+
+    .contactForm button {
+        width: 140px;
+        padding: 9px 25px;
+        margin-right: auto;
+        margin-top: 15px;
+        font-size:13px;
     }
 }
 

@@ -2,7 +2,7 @@
 
 .contactImg {
     width:  100%;
-    height: auto;
+    height: 69vh;
 }
 
 .contactTitle {
@@ -20,6 +20,34 @@
     font-size: 20px;
     padding-bottom: 25px;
     font-style: underline;
+}
+
+@media screen and (min-width:715px) and (max-width:980px)
+{
+    .contactImg {
+        height: 64vh;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:715px)
+{
+    .contactImg {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width:370px) and (max-width:600px)
+{
+    .contactImg {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:370px)
+{
+    .contactImg {
+        height: 25vh;
+    }
 }
 
 @media screen and (min-width: 620px) and (max-width:980px){
@@ -50,11 +78,11 @@
 
 @media screen and (max-width: 480px){
     .contactTitle{   
-    font-size:25px;        
+        font-size:30px;      
     }
     .contactSubtitle{
-        font-size: 10px;            
+        font-size: 12px;            
         width:78%;    
         margin: 0 auto;
-        }
+    }
 }

@@ -5,17 +5,17 @@
 }
 
 
-@media screen and (min-width:880px) and (max-width:1025px)
+@media screen and (min-width:980px) and (max-width:1025px)
 {
     .slideImg {
         height: 70vh;
     }
 }
 
-@media screen and (min-width:715px) and (max-width:880px)
+@media screen and (min-width:715px) and (max-width:980px)
 {
     .slideImg {
-        height: 60vh;
+        height: 64vh;
     }
 }
 
@@ -26,9 +26,16 @@
     }
 }
 
-@media screen and (max-width:600px)
+@media screen and (min-width:370px) and (max-width:600px)
 {
     .slideImg {
         height: 30vh;
+    }
+}
+
+@media screen and (max-width:370px)
+{
+    .slideImg {
+        height: 25vh;
     }
 }
