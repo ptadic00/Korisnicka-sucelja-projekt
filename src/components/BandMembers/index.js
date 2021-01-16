@@ -24,7 +24,7 @@ const BandMembers = () => (
                         (vokalistica)
                     </h4>
                     <p className={styles.descr}>
-                        Nešto o tom članu benda. Kratka biografija.
+                        Marijana je vokalistica koja je svoj pjevački alat brusila u srednjoj glazbenoj školi. Vesela i uvijek nasmijana Marijana uveselit će vas obradama kako dalmatinskih hitova tako i stranih evergreena. 
                     </p>
             </article>
             <article className={styles.member1}>
@@ -35,7 +35,7 @@ const BandMembers = () => (
                         (vokal i klavijature)
                     </h4>
                     <p className={styles.descr}>
-                        Nešto o tom članu benda. Kratka biografija.
+                        Drži titulu najneozbiljnijeg člana benda. Ima toliko široki raspon znanja, od slikavanja i snimanja do glazbe, da ste ga sigurno već negdje susreli po splitskim pirevima. Ako niste - jednom kad budete, nećete ga moći promašiti.
                     </p>
             </article>
             <article className={styles.member1}>
@@ -46,7 +46,7 @@ const BandMembers = () => (
                         (vokal i gitara)
                     </h4>
                     <p className={styles.descr}>
-                        Nešto o tom članu benda. Kratka biografija.
+                        Zoki je, uz Filipa, osnivač 100's benda. Od ranog djetinjstva svirao je u svojoj garaži s prijateljima, te je do sada sudjelovao u brojnim gažama s više bendova. Iskustvo je njegova najveća vrlina, a druga kaže da je ljubav prema countryju.
                     </p>
             </article>
             </div>
