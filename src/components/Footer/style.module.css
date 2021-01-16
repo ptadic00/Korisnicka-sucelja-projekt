@@ -59,8 +59,8 @@ html, body {width: auto!important; overflow-x: hidden!important}
         border-right: none;
         font-size:13px;
         margin: 0 auto; 
-        padding-right:0;
-        padding-left:0;     
+        padding-right:0px;
+        padding-left:0px;     
     }
     .title{
         font-size:30px;
