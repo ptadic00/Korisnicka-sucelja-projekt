@@ -33,11 +33,9 @@
 
 .instagramLogo {
     height: 50px;
-    height: 50px;
 }
 
 .faceLogo {
-    height: 50px;
     height: 50px;
 }
 
@@ -136,16 +134,6 @@
     .contactInfo h3 {
         font-size: 18px;
     }
-    
-    .instagramLogo {
-        height: 40px;
-        height: 40px;
-    }
-    
-    .faceLogo {
-        height: 40px;
-        height: 40px;
-    }
 
     .contactInfo p, address {
         font-size: 16px;
@@ -210,9 +198,8 @@
         font-size: 17px;
     }
     
-    .instagramLogo {
-        height: 35px;
-        height: 35px;
+    .instagramLogo, .faceLogo {
+        height: 45px;
     }
 
     .contactInfo p, address {
@@ -282,6 +269,11 @@
     .contactInfo {
         width: 347px;
     }
+
+    .instagramLogo, .faceLogo {
+        height: 45px;
+    }
+
     .form form {
         width: 830px;
     }
@@ -320,21 +312,26 @@
     }
     
     .contactForm h2 {
-        font-size: 25px;
+        font-size: 23px;
     }
      
     .contactInfo h3 {
-        font-size: 16px;
+        font-size: 15px;
     }
     
     .contactInfo p, address {
-        font-size: 15px;
+        font-size: 13px;
         padding-bottom:20px;
     }
 
     .contactInfo {
         width: 335px;
     }
+
+    .instagramLogo, .faceLogo {
+        height: 40px;
+    }
+
     .form form {
         width: 750px;
     }
@@ -417,6 +414,10 @@
         height: 200px;
         width: 350px;
     }
+
+    .instagramLogo, .faceLogo {
+        height: 40px;
+    }
      
     .contactForm button {
         width: 140px;
@@ -435,25 +436,27 @@
         text-align:center;
         padding-right:0px !important;
         padding-left:0px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .contactInfo{
         margin: 0 auto;
     }
 
     .contactForm h2 {
-        font-size: 25px;
+        font-size: 24px;
         margin: 0 auto;
     }
      
     .contactInfo h3 {
-        font-size: 16px;
+        font-size: 19px;
     }
     
     .form h2{
         padding-top: 30px;
     }
-    .contactInfo p, address {
-        font-size: 15px;
+    .contactInfo p, address, .form form label {
+        font-size: 17px;
         padding-bottom:20px;
     }
 
@@ -501,10 +504,14 @@
         margin-top: 15px;
         font-size:13px;
     }
+
+    .instagramLogo, .faceLogo {
+        height: 35px;
+    }
 }
 
 
-@media screen and (min-width:456px) and (max-width:680px){
+@media screen and (min-width:424px) and (max-width:680px){
 
     .contactForm {
         display:block;
@@ -513,24 +520,26 @@
         padding-right:0px !important;
         padding-left:0px;
         padding-top:20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .contactInfo{
         margin: 0 auto;
     }
 
     .contactForm h2 {
-        font-size: 18px;
+        font-size: 17px;
     }
      
     .contactInfo h3 {
-        font-size: 14px;
+        font-size: 13px;
     }
     
     .form h2{
         padding-top: 18px;
     }
-    .contactInfo p, address {
-        font-size: 14px;
+    .contactInfo p, address, .form form label {
+        font-size: 13px;
         padding-bottom:20px;
     }
 
@@ -546,7 +555,7 @@
      
     .form form input {
         width: 300px;
-        height: 27px;
+        height: 25px;
         margin: 0 auto;
     }
 
@@ -556,7 +565,7 @@
     }
      
     .form form label {
-        padding: 10px 0;
+        padding: 8px 0;
         text-align:left;
         font-size:13px;
     }
@@ -566,10 +575,13 @@
         width: 300px;
     }
      
+    .instagramLogo, .faceLogo {
+        height: 30px;
+    }
 }
 
 
-@media screen and (max-width:456px){
+@media screen and (max-width:424px){
 
     .contactForm {
         display:block;
@@ -578,6 +590,8 @@
         padding-right:0px !important;
         padding-left:0px;
         padding-top:20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .contactInfo{
         margin: 0 auto;
@@ -604,7 +618,7 @@
     }
 
     .form form {
-        width: 250px;
+        width: 160px;
         margin: 0 auto;
         padding-left:0px;
     }
@@ -620,14 +634,14 @@
         margin:0 auto;
     }
 
-    .message_label{
-        margin-left:44px;
-    }
-     
     .form form label {
         padding: 8px 0;
         text-align:left;
         font-size:11px;
+    }
+    .message{
+        margin:0 auto;
+    
     }
 
     .form form input {
@@ -640,9 +654,13 @@
     }
      
     .contactForm button {
-        width: 100px;
-        margin:10 auto;
+        width: 80px;
+        margin-top:15px;
+        margin-right:40px;
         padding:8px;
-        font-size:10px;
+        font-size:9px;
+    }
+    .instagramLogo, .faceLogo {
+        height: 25px;
     }
 }
