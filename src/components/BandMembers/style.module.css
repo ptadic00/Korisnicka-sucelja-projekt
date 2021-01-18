@@ -139,13 +139,13 @@
 
 @media screen and (min-width: 480px) and (max-width: 620px) {
     .title{   
-    font-size:30px;
+    font-size:38px;
     }
 }
 
 
 @media screen and (max-width: 480px){
     .title{   
-        font-size:30px;      
+        font-size:38px;      
     }
 }

@@ -6,6 +6,7 @@ import PoslusajteNas from "../components/listenUs"
 const PoslusajteNasIndex = () => (
   <main>
     <NavigationHeader activeTab = "Poslušajte nas" />
+    <style>{'body { background-color: black; }'}</style>
     <PoslusajteNas/>
     <Footer activeTab = "Poslušajte nas"/>
   </main>

@@ -30,7 +30,7 @@
 .blog_post_author{
     margin-left:120px;
     color: gray;
-    font-size: small;
+    font-size: 15px;
 }
 
 .blog_windows{
@@ -47,6 +47,7 @@
     padding-left: 110px;
     padding-bottom: 10px;
     color: white;
+    font-size: 18px;
 }
 
 hr {
@@ -67,7 +68,7 @@ hr {
     .subtitle{
         width:60%;
         margin: 0 auto;
-        font-size:15px;
+        font-size:18px;
     }
 
     .blog_post_title{
@@ -94,30 +95,30 @@ hr {
 
 @media screen and (min-width: 480px) and (max-width: 620px) {
     .main_headline{   
-    font-size:30px;
+    font-size:40px;
     }
 
     .subtitle{
-        font-size: 13px;
+        font-size: 17px;
         width:80%;
         margin: 0 auto;
     }
 
     .blog_post_title{
-        font-size:19px;
+        font-size:20px;
         padding-left: 40px;
     }
 
     .blog_post_author{
         margin-left:50px;
         margin-right:50px;
-        font-size:12px;
+        font-size:14px;
     }
 
     .excerpt{
         padding-left: 50px;
         padding-right: 50px;
-        font-size: 14px;
+        font-size: 17px;
         text-align:justify;
     }
 
@@ -129,29 +130,31 @@ hr {
 
 @media screen and (max-width: 480px){
     .main_headline{   
-    font-size:30px;        
+        font-size:38px;    
+        margin-top: 15px;    
     }
+    
     .subtitle{
-        font-size: 12px;            
-        width:78%;    
+        font-size: 15px;            
+        width:80%;    
         margin: 0 auto;
     }
 
     .blog_post_title{
-        font-size:16px;
+        font-size:18px;
         padding-left: 25px;
     }
 
     .blog_post_author{
         margin-left:30px;
         margin-right:30px;
-        font-size:10px;
+        font-size:13px;
     }
 
     .excerpt{
         padding-left: 30px;
         padding-right: 30px;
-        font-size: 11px;
+        font-size: 16px;
         text-align:justify;
     }
 

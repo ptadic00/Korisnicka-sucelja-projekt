@@ -4,6 +4,10 @@ import styles from "./style.module.css"
 import NavigationHeader from "../components/NavigationHeader"
 import Footer from "../components/Footer"
 
+import { Bounce } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
+
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
 
@@ -12,13 +16,19 @@ export default function BlogPost({ data }) {
     <div>
       <NavigationHeader/>
       <style>{'body { background-color: black; }'}</style>
-      <h1 className={styles.blogpost_title}>{post.frontmatter.title}</h1>
-      <small className={styles.blogpost_author}>
+      <Bounce triggerOnce={true}>
+        <h1 className={styles.blogpost_title}>{post.frontmatter.title}</h1>
+      </Bounce>
+      <Fade triggerOnce={true}>
+        <small className={styles.blogpost_author}>
             {post.frontmatter.author}, {post.frontmatter.date}
           </small>
+      </Fade>
+      <Slide triggerOnce={true}>
           <div className={styles.blogpost_content} dangerouslySetInnerHTML={{ __html: post.html }} />
-          <Footer/>
-          </div>
+      </Slide>
+      <Footer/>
+    </div>
   )
 }
 

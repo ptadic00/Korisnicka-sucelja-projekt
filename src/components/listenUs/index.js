@@ -8,15 +8,14 @@ import { Slide } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
  
 const PoslusajteNas = () => (
-  <div className={styles.pozadina}>
+  <div>
     <Bounce triggerOnce={true}>
-      
       <h1 className={styles.listenTitle}>Music Band 100's</h1>
       <h2 className={styles.listenSubtitle}>Ovdje možete vidjeti atmosferu s naših svirki te razne spotove i obrade stranih i domaćih hitova.</h2>
     </Bounce>
  
     <div className={styles.content}>
-      <Fade triggerOnce={true} delay={700}>
+      <Fade triggerOnce={true}>
         <div className={styles.wrapper}>
           <ReactPlayer
             className={styles.player}

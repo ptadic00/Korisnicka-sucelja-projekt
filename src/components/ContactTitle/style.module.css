@@ -65,26 +65,17 @@
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 620px) {
-    .contactTitle{   
-    font-size:30px;
+@media screen and (max-width: 620px) {
+    .contactTitle{
+        margin-top: 18px;
+        font-size:38px;
     }
 
     .contactSubtitle{
-        font-size: 13px;
+        font-size: 15px;
         width:80%;
         margin: 0 auto;
     }
 }
 
 
-@media screen and (max-width: 480px){
-    .contactTitle{   
-        font-size:30px;      
-    }
-    .contactSubtitle{
-        font-size: 12px;            
-        width:78%;    
-        margin: 0 auto;
-    }
-}

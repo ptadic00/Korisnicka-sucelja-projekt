@@ -76,17 +76,17 @@ html, body {width: auto!important; overflow-x: hidden!important}
 @media screen and (max-width:450px)
 {
     .footer{
-        padding: 15px;
+        padding: 10px;
     }
     .footer .address{
         border-right: none;
         font-size:11px;
         margin: 0 auto; 
         padding-right:0;
-        padding-left:0;     
+        padding-left:0;  
     }
     .title{
-        font-size:24px;
+        font-size:30px;
         margin-bottom:0px;
         margin-top:0px;
         margin: 0 auto;

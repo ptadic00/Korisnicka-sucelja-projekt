@@ -13,7 +13,7 @@
 
 .blogpost_author{
     font-family: "Quicksand";
-    font-size:15px;
+    font-size:18px;
     color: grey;
     margin-left: 200px;
     margin-top: 10px;
@@ -28,7 +28,7 @@
     text-align: left;
     font-family: 'Quicksand', sans-serif;
     line-height: 2.5rem;
-    text-align:justify;
+    text-align:left;
     color: white;
 }
 
@@ -124,22 +124,22 @@
 @media screen and (max-width:450px){
   
     .blogpost_title{
-        font-size: 26px;
+        font-size: 38px;
         margin: 20 auto;
         margin-bottom: 10px;
     }
     
     
     .blogpost_author{
-        font-size:10px;
+        font-size:15px;
         margin-left: 40px;
     }
     
     .blogpost_content{
-        font-size: 12px;
-        margin: 0 auto;
-        line-height: 1.2rem;
-        padding-left:20px;
-        padding-right:20px;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-indent: 20px;
+        line-height: 1.8rem;
     }  
 }
