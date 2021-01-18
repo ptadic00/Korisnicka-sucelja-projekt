@@ -8,6 +8,7 @@
     text-align: center;
     margin-bottom: 5px;
     padding-top: 11px;
+    color: white;
 }
 
 .subtitle{
@@ -16,10 +17,12 @@
     font-size: 20px;
     padding-bottom: 25px;
     font-style: underline;
+    color: white;
 }
 
 .blog_post_title{
-    color:purple;
+    /*color:purple;*/
+    color: violet;
     text-decoration:underline;
     padding-left:100px;
 }
@@ -43,6 +46,7 @@
     font-family: "Quicksand";
     padding-left: 110px;
     padding-bottom: 10px;
+    color: white;
 }
 
 hr {

@@ -10,6 +10,7 @@ import SocialNetworks from '../components/SocialNetworks'
 const IndexPage = () => (
   <main>
     <NavigationHeader activeTab = "Početna" />
+    <style>{'body { background-color: black; }'}</style>
     <Carousel/>
     <SocialNetworks/>
     <AboutUs/>

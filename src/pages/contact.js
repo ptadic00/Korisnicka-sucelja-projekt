@@ -7,6 +7,7 @@ import ContactForm from '../components/ContactForm'
 const ContactPage = () => (
   <main>
     <NavigationHeader activeTab="Kontakt"/>
+    <style>{'body { background-color: black; }'}</style>
         <ContactTitle/>
         <ContactForm/>
     <Footer activeTab = "Kontakt"/>

@@ -3,7 +3,8 @@ body{
 }
 
 .pozadina{
-    background-image: url('../../images/poslusajteNas.jpg');
+    /*background-image: url('../../images/poslusajteNas.jpg');*/
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;

@@ -11,6 +11,7 @@ export default function BlogPost({ data }) {
   return (
     <div>
       <NavigationHeader/>
+      <style>{'body { background-color: black; }'}</style>
       <h1 className={styles.blogpost_title}>{post.frontmatter.title}</h1>
       <small className={styles.blogpost_author}>
             {post.frontmatter.author}, {post.frontmatter.date}

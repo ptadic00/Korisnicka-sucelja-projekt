@@ -13,6 +13,7 @@ export default function Blog({ data }) {
   return (
     <div>
       <NavigationHeader activeTab = "Blog"/>
+      <style>{'body { background-color: black; }'}</style>
       <img className={styles.slika} alt="slika" src={data.image.publicURL}/>
       <Bounce triggerOnce={true}>
         <h1 className={styles.main_headline}>Blog</h1>
