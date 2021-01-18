@@ -6,6 +6,7 @@ import styles from '../components/Repertoire/style.module.css'
  
 const RepertoirePage = () => (
   <main className={styles.repertoire_background_image}>
+    <NavigationHeader activeTab="Repertoar"/>
     <Repertoire/>
     <style>{'body { background-color: black; }'}</style>
     <Footer activeTab="Repertoar"/>
