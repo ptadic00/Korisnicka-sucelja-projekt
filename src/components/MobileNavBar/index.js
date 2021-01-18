@@ -22,7 +22,8 @@ const MobileNavBar= () => {
                         <Link to={nav.to}>
                         {nav.tab}
                         </Link>
-                    </li>)
+                    </li>
+                    )
                 )}
                 </nav>
         </section>
