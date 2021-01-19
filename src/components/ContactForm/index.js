@@ -34,23 +34,23 @@ const ContactForm = () => (
                 <form>
                     <div>
                         <label htmlFor="name">Ime</label>
-                        <input name="name" type="text" />
+                        <input name="name" type="text" required/>
                     </div>
                     <div>
                         <label htmlFor="lastname">Prezime</label>
-                        <input name="lastname" type="text" />
+                        <input name="lastname" type="text" required/>
                     </div>
                     <div>
                         <label htmlFor="email">Email</label>
-                        <input name="email" type="email" />
+                        <input name="email" type="email" required/>
                     </div>
                     <div>
                         <label htmlFor="phone">Broj mobitela</label>
-                        <input name="phone" type="tel" />
+                        <input name="phone" type="tel" required/>
                     </div>
                     <div className={styles.message}>
                         <label className={styles.message_label} htmlFor="message">Poruka</label>
-                        <input name="message" type="text" />
+                        <textarea name="message" type="text" required/>
                     </div>
                     <button>Pošalji poruku</button>
                 </form>
