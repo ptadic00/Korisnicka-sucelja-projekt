@@ -7,7 +7,7 @@ import NavigationBar from '../NavigationBar'
 import MobileNavBar from '../MobileNavBar'
  
 const NavigationHeader = ({ activeTab }) => {
-  const isMobile = useMediaQuery({query: '(max-device-width: 400px)'})
+  const isMobile = useMediaQuery({query: '(max-device-width: 800px)'})
   console.log(isMobile)
   return (
     <section className={styles.navigationHeader}>
