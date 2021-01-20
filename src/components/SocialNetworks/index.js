@@ -7,8 +7,12 @@ import instagramLogo from '../../images/instagramLogo.png'
 
 const SocialNetworks = () => (
     <section className={styles.socialNetw} >
-        <img src={instagramLogo} alt="instagramLogo" className={styles.instagramLogo}></img>
-        <img src={faceLogo} alt="faceLogo" className={styles.faceLogo}></img>
+        <a href="https://www.google.hr/">
+            <img src={instagramLogo} alt="instagramLogo" className={styles.instagramLogo}></img>
+        </a>
+        <a href="https://www.google.hr/">
+            <img src={faceLogo} alt="faceLogo" className={styles.faceLogo}></img>
+        </a>
     </section>
 )
  

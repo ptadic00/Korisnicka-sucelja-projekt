@@ -1,11 +1,47 @@
-import React from 'react'
+import React, {Component} from 'react'
  
 import styles from './style.module.css';
 import faceLogo from '../../images/faceLogo.png'
 import instagramLogo from '../../images/instagramLogo.png'
 import { Fade } from "react-awesome-reveal";
 
-const ContactForm = () => (
+class ContactForm extends Component {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            telephone: '',
+            name:''
+        };
+        this.onHandleTelephoneChange = this.onHandleTelephoneChange.bind(this);
+        this.onHandleNameChange = this.onHandleNameChange.bind(this);
+    }
+
+    onHandleTelephoneChange = e => {
+        let telephone = e.target.value;
+        
+        /*if (!Number(telephone)) {
+            return;
+        }*/
+        this.setState({
+            [e.target.name]: telephone
+        });
+    };
+
+    onHandleNameChange = e => {
+        let name = e.target.value;
+
+        if (Number(name)) {
+            return;
+        }
+        this.setState({
+            [e.target.name]: name
+        });
+    };
+
+    render(){
+        return(
     <main className={styles.contactForm}>
         <Fade triggerOnce={true} delay={300}>
             <section className={styles.contactInfo}>
@@ -23,8 +59,10 @@ const ContactForm = () => (
                 <p>IBAN: HR08497593759385739574</p>
 
                 <section className={styles.socialNetw} >
-                <img src={instagramLogo} alt="instagramLogo" className={styles.instagramLogo}></img>
-        <img src={faceLogo} alt="faceLogo" className={styles.faceLogo}></img>
+                    <a href="https://www.google.hr/">
+                        <img src={instagramLogo} alt="instagramLogo" className={styles.instagramLogo}></img>
+                        <img src={faceLogo} alt="faceLogo" className={styles.faceLogo}></img>
+                    </a>
                 </section>
                 
                 
@@ -34,7 +72,7 @@ const ContactForm = () => (
                 <form>
                     <div>
                         <label htmlFor="name">Ime</label>
-                        <input name="name" type="text" />
+                        <input name="name" type="text" value = {this.state.name}onChange = { this.onHandleNameChange}/>
                     </div>
                     <div>
                         <label htmlFor="lastname">Prezime</label>
@@ -46,7 +84,7 @@ const ContactForm = () => (
                     </div>
                     <div>
                         <label htmlFor="phone">Broj mobitela</label>
-                        <input name="phone" type="tel" />
+                        <input name="telephone" type="tel" min='0' value = {this.state.telephone}onChange = { this.onHandleTelephoneChange} />
                     </div>
                     <div className={styles.message}>
                         <label className={styles.message_label} htmlFor="message">Poruka</label>
@@ -57,6 +95,8 @@ const ContactForm = () => (
             </section>
         </Fade>
     </main>
-)
+        );
+    }
+}
  
 export default ContactForm
