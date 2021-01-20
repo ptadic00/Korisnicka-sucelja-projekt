@@ -115,13 +115,19 @@
     margin-right: 94px;
     margin-top: 15px;
     border: 1px solid #000;
-    border-radius: 5px;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 20px;
 }
  
 .contactForm button:hover {
-    background: #333;
+    /*background: #333;
     cursor: pointer;
     border: 1px solid #333;
+    border-bottom: 2px solid darkgray;*/ 
+    border-bottom: 2px solid darkgray;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 @media screen and (min-width:1340px) and (max-width:1500px){
@@ -184,7 +190,7 @@
         padding: 10px 35px;
         margin-right: 130px;
         margin-top: 15px;
-        border-radius: 5px;
+        border-radius: 50px;
     }
 }
 
@@ -250,7 +256,7 @@
         margin-right: 150px;
         margin-top: 15px;
         font-size:13px;
-        border-radius: 5px;
+        border-radius: 50px;
     }
 }
 
@@ -324,7 +330,7 @@
         margin-right: 284px;
         margin-top: 15px;
         font-size:13px;
-        border-radius: 5px;
+        border-radius: 50px;
     }
 }
 
@@ -389,7 +395,7 @@
         margin-right: 250px;
         margin-top: 15px;
         font-size:13px;
-        border-radius: 5px;
+        border-radius: 50px;
     }
 }
 
@@ -469,7 +475,7 @@
         margin-right: auto;
         margin-top: 15px;
         font-size:13px;
-        border-radius: 5px;
+        border-radius: 50px;
     }
 
     .instagramLogo, .faceLogo {
@@ -558,7 +564,7 @@
         margin-right:60px;
         padding:8px;
         font-size:15px;
-        border-radius: 5px;
+        border-radius: 50px;
     }
     .instagramLogo, .faceLogo {
         height: 40px;
@@ -645,7 +651,7 @@
         margin-right:60px;
         padding:8px;
         font-size:15px;
-        border-radius: 5px;
+        border-radius: 50px;
     }
     .instagramLogo, .faceLogo {
         height: 40px;
