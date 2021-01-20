@@ -1,7 +1,7 @@
 ---
 title: Oktobarski blog
 author: Zoran
-date: 2020-08-16
+date: 2020-10-14
 ---
 
 Dobrodošli na naš blog. Ovdje ćemo objavljivati doživljaje s najdražih gaža, koncerata i svadbi.

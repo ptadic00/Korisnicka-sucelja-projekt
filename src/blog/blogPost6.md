@@ -1,7 +1,7 @@
 ---
 title: Novi album
 author: Filip
-date: 2020-10-15
+date: 2020-03-23
 ---
 
 S ponosom vam predstavljamo naš prvi album s domaćim pjesmama!

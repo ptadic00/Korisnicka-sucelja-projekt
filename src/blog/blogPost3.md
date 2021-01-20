@@ -1,7 +1,7 @@
 ---
 title: Izdali smo album!
 author: Filip
-date: 2020-10-15
+date: 2020-09-15
 ---
 
 S ponosom vam predstavljamo naš prvi album s domaćim pjesmama!

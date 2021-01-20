@@ -1,7 +1,7 @@
 ---
 title: Dobrodošli
 author: Zoran
-date: 2020-08-16
+date: 2020-02-13
 ---
 
 Dobrodošli na naš blog. Ovdje ćemo objavljivati doživljaje s najdražih gaža, koncerata i svadbi.
