@@ -21,11 +21,11 @@
     transition: all 1s ease-out;
   }
    
-  .active {
+  .actives {
     transform: rotateZ(90deg);
   }
    
-  .burgerButton.active > div {
+  .burgerButton.actives > div {
     transition: all 1s ease-in-out;
     background-color: black;
   }
@@ -50,14 +50,28 @@
     color: black;
     transition: all 1s ease-in-out;
     list-style: none;
-    line-height: 2.8rem;
+    line-height: 3rem;
   }
-   
-  .menu li a {
+
+  .menu li {
     text-align: center;
     margin: 0 auto;
-    
+    margin-bottom:0;
+    height:40px;
+  }
+   
+  .menu a {
+    text-align: center;
+    margin: 0 auto;
+  }
 
+  
+  .menu .active, .menu .active:hover{
+    width:fit-content;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    /*text-decoration: underline;*/
+    
   }
 
   .menu li {

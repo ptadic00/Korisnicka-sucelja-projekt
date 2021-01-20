@@ -13,7 +13,7 @@ const NavigationHeader = ({ activeTab }) => {
     <section className={styles.navigationHeader}>
         <Logo />
         {isMobile
-          ? <MobileNavBar />
+          ? <MobileNavBar activeTab={activeTab}/>
           : <NavigationBar activeTab={activeTab} />
         }
     </section>
