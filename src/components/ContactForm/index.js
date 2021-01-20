@@ -76,11 +76,11 @@ class ContactForm extends Component {
                     </div>
                     <div>
                         <label htmlFor="lastname">Prezime</label>
-                        <input name="lastname" type="text" />
+                        <input name="lastname" type="text" required/>
                     </div>
                     <div>
                         <label htmlFor="email">Email</label>
-                        <input name="email" type="email" />
+                        <input name="email" type="email" required/>
                     </div>
                     <div>
                         <label htmlFor="phone">Broj mobitela</label>
@@ -88,7 +88,7 @@ class ContactForm extends Component {
                     </div>
                     <div className={styles.message}>
                         <label className={styles.message_label} htmlFor="message">Poruka</label>
-                        <input name="message" type="text" />
+                        <textarea name="message" type="text" required/>
                     </div>
                     <button>Pošalji poruku</button>
                 </form>
