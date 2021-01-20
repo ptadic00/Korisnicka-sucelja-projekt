@@ -1,44 +1,51 @@
-  .error_container{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #343434;
-    font-family: "montserrat",sans-serif;
-    min-height: 100vh;
-    background: url('https://image.freepik.com/free-vector/error-404-concept-landing-page_52683-18633.jpg') center no-repeat;
-    background-position: top;
-    background-size: 50%;
-  }
-  
-  .error_container .error_p{
-    font-size: 20px;
-    margin-top: 510px;
-    font-weight: bold;
-    color:black;
-    }
-  
-  .error_container .error_h2{
-    margin-top:8px;
-    font-size:40px;
+.error_h2 {
+  text-align: center;
+  margin-top:20px;
+  font-size:40px;
+}
+.no4left{
+  height: 250px;
+  width: 210px;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 350px;
+}
 
-  }
+.imgDrums{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
 
-  .error_container .error_a{
-    text-decoration: none;
-    background:#512fba;
-    color: #fff;
-    padding: 15px 29px;
-    display: inline-block;
-    border-radius: 25px;
-    font-size: 17px;
-    text-transform: uppercase;
-    transition: 0.2s;
-    font-weight: bold;
-  }
-  
-  .error_container .error_a:hover{
-    background:#6a4ebf;
-  }
-  
+.no4right{
+  height: 250px;
+  width: 210px;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 820px;
+}
+
+.error_p {
+  font-size: 20px;
+  font-weight: bold;
+  color:black;
+  text-align: center;
+}
+
+.error_a{
+  text-decoration: none;
+  background:#512fba;
+  color: #fff;
+  padding: 15px 29px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 17px;
+  text-transform: uppercase;
+  transition: 0.2s;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9%;
+}
