@@ -2,10 +2,10 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import React from 'react'
 
-import i1 from '../../images/untitled-5.jpg'
-import i2 from '../../images/carousel_img2.jpg'
+import i1 from '../../images/carousel_img1.jpg'
+import i2 from '../../images/carousel_img3.jpg'
 import i3 from '../../images/slider.jpg'
-import i4 from '../../images/untitled-167.jpg'
+import i4 from '../../images/carousel_img4.jpg'
 
 import styles from './style.module.css'
 
